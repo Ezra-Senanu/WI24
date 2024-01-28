@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.photobook {
+  display: flex;
+  overflow: hidden;
+}
+
+.pages-container {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.page {
+  box-sizing: border-box;
+  width: 50vw; /* Each image takes up half of the page width */
+  height: 100vh;
+  padding: 20px;
+  border: 10px solid #fff;
+  display: flex;
+  flex-direction: row; /* Arrange images horizontally */
+}
+
+.page img {
+  flex: 1; /* Each image takes equal width within the page */
+  max-width: 100%;
+  height: auto;
+  margin-right: 10px; /* Space between images */
+}
+
+.page img:last-child {
+  margin-right: 0; /* Remove margin for the last image in each page */
+}
+/* Darken the text on the back side of the book pages */

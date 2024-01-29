@@ -1,15 +1,23 @@
 [
   {
-    "title": "Photo 1",
-    "imageUrl": "photos/jpp.jpg"
+
+    "url": "photos/jpp.jpg"
   },
   {
-    "title": "Photo 2",
-    "imageUrl": "photos/j.jpg"
+    "url": "photos/j.jpg"
   },
   {
-    "title": "Photo 3",
-    "imageUrl": "photos/q.jpg"
+    "url": "photos/q.jpg"
+  },
+  {
+    "url": "photos/vv.jpg"
+  },
+  {
+    "url": "photos/uu.jpg"
+  },
+  {
+    "url": "photos/xx.jpg"
   }
-  
+
+
 ]

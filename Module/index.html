@@ -3,17 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/indexstyles.css">
     <title>ECKS Photography</title>
 </head>
 <body>
-    <div class="photobook">
-      <div class="pages-container">
-        <div class="pages"></div>
-      </div>
 
+    <header>
+      <div class = "logo">
+        <a href="index.html"><img src="photos/b3e54c23fe9f4365810cf9ba893d8ca2.png" alt = "nav logo"></a>
+      </div>
+      <nav>
+        <ul>  
+          <li><a href="index.html">Home</a></li> 
+          <li><a href="about.html">About</a></li>  
+          <li><a href="gallery.html">Gallery</a></li>  
+          <li><a href="contact.html">Contact</a></li>  
+        </ul> 
+      </nav>
+    </header>
+
+    <div class="carousel-container">
+      <div class="carousel-slide" id="slide1">
+        <img src="photos/IMG_3510-3.jpg" alt="Image 1">
+      </div>
+      <div class="carousel-slide" id="slide2">
+        <img src="photos/wex.jpg" alt="Image 2">
+      </div>
+      <div class="carousel-slide" id="slide3">
+        <img src="photos/vv.jpg" alt="Image 3">
+      </div>
+      <div class="carousel-slide" id="slide3">
+        <img src="photos/IMG_3515-3.jpg" alt="Image 3">
+      </div>
+      <div class="carousel-slide" id="slide3">
+        <img src="photos/IMG_6060-3.jpg" alt="Image 3">
+      </div>
+      <div class="carousel-slide" id="slide3">
+        <img src="photos/IMG_6208-3.jpg" alt="Image 3">
+      </div>
     </div>
-    <script src="Module/scripts.js"></script>
+       
+    <footer>
+      <ul>
+        <div class = "socials">
+          <a href="https://www.facebook.com/"><img src="photos/icons8-facebook-48.png" alt="Facebook"></a></li>
+          <a href="https://www.instagram.com/"><img src="photos/instagram.png" alt="Instagram"></a></li>
+        </div>
+      </ul>
+    </footer>
+
+    <button id="prevBtn">&lt;</button>
+    <button id="nextBtn">&gt;</button>
+    <script src="https://cdn.jsdelivr.net/vibrant.js/1.0.0/Vibrant.min.js"></script>
+    <script src="indexscripts.js"></script>
 </body>
 </html>
 

@@ -3,12 +3,14 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: "Cascadia Code";
+  background-color: black;
 }
 
 .carousel-container {
   width: 100%;
   display: flex;
   overflow: hidden
+  
 }
 
 .carousel-slide {
@@ -51,7 +53,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: black;
+  color: whitesmoke;
   
 }
 
@@ -67,7 +69,7 @@ nav ul {
 
 nav a {
   text-decoration: none;
-  color: black;
+  color: whitesmoke;
   font-weight: bold;
   font-size: 16px;
 }

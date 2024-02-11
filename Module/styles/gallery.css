@@ -124,11 +124,11 @@ body {
   font-family: "Cascadia Code";
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background-color: black;
 }
 
 header {
-  background-color: #333;
+  background-color: black;
   color: #fff;
   text-align: center;
   padding: 1em;
@@ -138,7 +138,7 @@ section {
   max-width: 800px;
   margin: 20px auto;
   padding: 20px;
-  background-color: #fff;
+  background-color: black;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 

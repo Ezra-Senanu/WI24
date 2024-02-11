@@ -1,4 +1,41 @@
+header {
+  background-color: transparent; 
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: right;
+  color: black;
+  
+}
 
+body {
+  font-family: "Cascadia Code";
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+email-section{
+  max-width: 800px;
+  margin: auto;
+}
+section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: solid thin #eee;
+  box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 -3px 6px rgba(0,0,0,.23);
+}
+
+h2 {
+  color: #333;
+}
+
+p {
+  line-height: 1.6;
+  color: #666;
+}
 
 .carousel-container {
   width: 100%;
@@ -40,15 +77,6 @@ button {
   right: 10px;
 }
 
-header {
-  background-color: transparent; 
-  padding: 10px 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: black;
-  
-}
 
 .logo img {
   max-width: 50px; 
@@ -75,6 +103,8 @@ nav a {
   width: 20px;
   height: 20px;
 }
+
+
 /* Footer styles */
 footer {
   background-color: transparent;
@@ -97,35 +127,4 @@ footer a {
   color: black;
   font-weight: bold;
   margin: 0 15px;
-}
-
-body {
-  font-family: "Cascadia Code";
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
-}
-
-header {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 1em;
-}
-
-section {
-  max-width: 800px;
-  margin: 20px auto;
-  padding: 20px;
-  background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-h2 {
-  color: #333;
-}
-
-p {
-  line-height: 1.6;
-  color: #666;
 }
